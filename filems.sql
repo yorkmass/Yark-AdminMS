@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50642
 File Encoding         : 65001
 
-Date: 2020-03-11 15:21:42
+Date: 2020-03-11 17:01:56
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -50,7 +50,7 @@ CREATE TABLE `sys_loginfo` (
   `loginip` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
   `logintime` datetime DEFAULT NULL,
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE=InnoDB AUTO_INCREMENT=303 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci ROW_FORMAT=COMPACT;
+) ENGINE=InnoDB AUTO_INCREMENT=342 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci ROW_FORMAT=COMPACT;
 
 -- ----------------------------
 -- Records of sys_loginfo
@@ -89,6 +89,45 @@ INSERT INTO `sys_loginfo` VALUES ('299', '超级管理员-admin', '0:0:0:0:0:0:0
 INSERT INTO `sys_loginfo` VALUES ('300', '超级管理员-admin', '0:0:0:0:0:0:0:1', '2020-03-11 06:31:53');
 INSERT INTO `sys_loginfo` VALUES ('301', '超级管理员-admin', '0:0:0:0:0:0:0:1', '2020-03-11 06:32:39');
 INSERT INTO `sys_loginfo` VALUES ('302', '超级管理员-admin', '0:0:0:0:0:0:0:1', '2020-03-11 06:35:41');
+INSERT INTO `sys_loginfo` VALUES ('303', '超级管理员-admin', '0:0:0:0:0:0:0:1', '2020-03-11 07:25:40');
+INSERT INTO `sys_loginfo` VALUES ('304', '超级管理员-admin', '0:0:0:0:0:0:0:1', '2020-03-11 07:26:57');
+INSERT INTO `sys_loginfo` VALUES ('305', '超级管理员-admin', '0:0:0:0:0:0:0:1', '2020-03-11 07:31:44');
+INSERT INTO `sys_loginfo` VALUES ('306', '超级管理员-admin', '0:0:0:0:0:0:0:1', '2020-03-11 07:34:23');
+INSERT INTO `sys_loginfo` VALUES ('307', '超级管理员-admin', '0:0:0:0:0:0:0:1', '2020-03-11 07:35:26');
+INSERT INTO `sys_loginfo` VALUES ('308', '超级管理员-admin', '0:0:0:0:0:0:0:1', '2020-03-11 07:36:31');
+INSERT INTO `sys_loginfo` VALUES ('309', '超级管理员-admin', '0:0:0:0:0:0:0:1', '2020-03-11 07:40:21');
+INSERT INTO `sys_loginfo` VALUES ('310', '超级管理员-admin', '0:0:0:0:0:0:0:1', '2020-03-11 07:48:21');
+INSERT INTO `sys_loginfo` VALUES ('311', '超级管理员-admin', '0:0:0:0:0:0:0:1', '2020-03-11 08:00:52');
+INSERT INTO `sys_loginfo` VALUES ('312', '超级管理员-admin', '0:0:0:0:0:0:0:1', '2020-03-11 08:04:20');
+INSERT INTO `sys_loginfo` VALUES ('313', '超级管理员-admin', '0:0:0:0:0:0:0:1', '2020-03-11 08:04:59');
+INSERT INTO `sys_loginfo` VALUES ('314', '超级管理员-admin', '0:0:0:0:0:0:0:1', '2020-03-11 08:05:21');
+INSERT INTO `sys_loginfo` VALUES ('315', '超级管理员-admin', '0:0:0:0:0:0:0:1', '2020-03-11 08:05:58');
+INSERT INTO `sys_loginfo` VALUES ('316', 'yorkmass-1001', '0:0:0:0:0:0:0:1', '2020-03-11 08:08:00');
+INSERT INTO `sys_loginfo` VALUES ('317', '超级管理员-admin', '0:0:0:0:0:0:0:1', '2020-03-11 08:08:29');
+INSERT INTO `sys_loginfo` VALUES ('318', 'yorkmass-1001', '0:0:0:0:0:0:0:1', '2020-03-11 08:16:00');
+INSERT INTO `sys_loginfo` VALUES ('319', 'yorkmass-stu-1002', '0:0:0:0:0:0:0:1', '2020-03-11 08:16:24');
+INSERT INTO `sys_loginfo` VALUES ('320', 'yorkmass-stu-1002', '0:0:0:0:0:0:0:1', '2020-03-11 08:16:46');
+INSERT INTO `sys_loginfo` VALUES ('321', '超级管理员-admin', '0:0:0:0:0:0:0:1', '2020-03-11 08:16:59');
+INSERT INTO `sys_loginfo` VALUES ('322', '超级管理员-admin', '0:0:0:0:0:0:0:1', '2020-03-11 08:23:29');
+INSERT INTO `sys_loginfo` VALUES ('323', '超级管理员-admin', '0:0:0:0:0:0:0:1', '2020-03-11 08:24:37');
+INSERT INTO `sys_loginfo` VALUES ('324', '超级管理员-admin', '0:0:0:0:0:0:0:1', '2020-03-11 08:25:08');
+INSERT INTO `sys_loginfo` VALUES ('325', 'yorkmass-1001', '0:0:0:0:0:0:0:1', '2020-03-11 08:25:25');
+INSERT INTO `sys_loginfo` VALUES ('326', '超级管理员-admin', '0:0:0:0:0:0:0:1', '2020-03-11 08:25:41');
+INSERT INTO `sys_loginfo` VALUES ('327', 'yorkmass-1001', '0:0:0:0:0:0:0:1', '2020-03-11 08:26:04');
+INSERT INTO `sys_loginfo` VALUES ('328', '超级管理员-admin', '0:0:0:0:0:0:0:1', '2020-03-11 08:26:21');
+INSERT INTO `sys_loginfo` VALUES ('329', '超级管理员-admin', '0:0:0:0:0:0:0:1', '2020-03-11 08:37:04');
+INSERT INTO `sys_loginfo` VALUES ('330', '超级管理员-admin', '0:0:0:0:0:0:0:1', '2020-03-11 08:37:44');
+INSERT INTO `sys_loginfo` VALUES ('331', '超级管理员-admin', '0:0:0:0:0:0:0:1', '2020-03-11 08:40:59');
+INSERT INTO `sys_loginfo` VALUES ('332', '超级管理员-admin', '0:0:0:0:0:0:0:1', '2020-03-11 08:41:57');
+INSERT INTO `sys_loginfo` VALUES ('333', 'yorkmass-yorkmass', '0:0:0:0:0:0:0:1', '2020-03-11 08:42:11');
+INSERT INTO `sys_loginfo` VALUES ('334', 'yorkmass-yorkmass', '0:0:0:0:0:0:0:1', '2020-03-11 08:42:32');
+INSERT INTO `sys_loginfo` VALUES ('335', '超级管理员-admin', '0:0:0:0:0:0:0:1', '2020-03-11 08:42:40');
+INSERT INTO `sys_loginfo` VALUES ('336', '超级管理员-admin', '0:0:0:0:0:0:0:1', '2020-03-11 08:51:00');
+INSERT INTO `sys_loginfo` VALUES ('337', 'yorkmass-yorkmass', '0:0:0:0:0:0:0:1', '2020-03-11 08:51:44');
+INSERT INTO `sys_loginfo` VALUES ('338', 'yorkmass-yorkmass', '0:0:0:0:0:0:0:1', '2020-03-11 08:52:07');
+INSERT INTO `sys_loginfo` VALUES ('339', 'nihao-nihao', '0:0:0:0:0:0:0:1', '2020-03-11 08:52:22');
+INSERT INTO `sys_loginfo` VALUES ('340', '超级管理员-admin', '0:0:0:0:0:0:0:1', '2020-03-11 08:52:38');
+INSERT INTO `sys_loginfo` VALUES ('341', '超级管理员-admin', '0:0:0:0:0:0:0:1', '2020-03-11 09:01:31');
 
 -- ----------------------------
 -- Table structure for sys_notice
@@ -343,15 +382,15 @@ CREATE TABLE `sys_user` (
   `imgpath` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL COMMENT '用户头像地址',
   `salt` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL COMMENT '盐',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=26 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=31 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of sys_user
 -- ----------------------------
-INSERT INTO `sys_user` VALUES ('1', '超级管理员', 'admin', '532ac00e86893901af5f0be6b704dbc7', '华北理工大学', '1', '超级管理员', '1', '2018-06-25 11:06:34', null, '1', '1', '0', '2020-03-06/2CD8B8E4F6724BC1807DC0C58F68C924.jpg', '04A93C74C8294AA09A8B974FD1F4ECBB');
-INSERT INTO `sys_user` VALUES ('3', 'yorkmass', '1001', 'cf208aeb925360f1b0530a648be3c978', '华北理工大学', '0', '普通用户', '1', '2019-12-02 10:49:12', null, '1', '3', '1', '2020-03-06/8FA43F374D7B4C1685D062AA0F6D01D0.jpg', 'C788CA8BF69D4974BEE2C4C56ECFC06B');
-INSERT INTO `sys_user` VALUES ('7', 'yorkmass-stu', '1002', 'ba1223331a5819549b3e038295dba5ed', '华北理工大学', '0', '学生', '4', '2019-12-03 09:52:18', '3', '1', '7', '1', '2020-03-06/8FA43F374D7B4C1685D062AA0F6D01D0.jpg', '96FA12C5E9A9483E929FDB900B210595');
-INSERT INTO `sys_user` VALUES ('10', 'yorkmass-files', '1003', '6c520841912c853052f58692898fc920', '华北理工大学', '0', '华北理工大学', '3', '2019-12-03 00:00:00', '3', '1', '9', '1', '2020-03-06/8FA43F374D7B4C1685D062AA0F6D01D0.jpg', 'AD0F264E41EA49ACA209C281E6F95CDD');
+INSERT INTO `sys_user` VALUES ('1', '超级管理员', 'admin', '532ac00e86893901af5f0be6b704dbc7', '华北理工大学', '1', '超级管理员', '1', '2018-06-25 11:06:34', null, '1', '1', '0', '/images/defaultusertitle.jpg', '04A93C74C8294AA09A8B974FD1F4ECBB');
+INSERT INTO `sys_user` VALUES ('3', 'yorkmass', '1001', 'cf208aeb925360f1b0530a648be3c978', '华北理工大学', '0', '普通用户', '1', '2019-12-02 10:49:12', null, '1', '3', '1', '/images/defaultusertitle.jpg', 'C788CA8BF69D4974BEE2C4C56ECFC06B');
+INSERT INTO `sys_user` VALUES ('7', 'yorkmass-stu', '1002', 'ba1223331a5819549b3e038295dba5ed', '华北理工大学', '0', '学生', '4', '2019-12-03 09:52:18', '3', '1', '7', '1', '/images/defaultusertitle.jpg', '96FA12C5E9A9483E929FDB900B210595');
+INSERT INTO `sys_user` VALUES ('10', 'yorkmass-files', '1003', '6c520841912c853052f58692898fc920', '华北理工大学', '0', '华北理工大学', '3', '2019-12-03 00:00:00', '3', '1', '9', '1', '/images/defaultusertitle.jpg', 'AD0F264E41EA49ACA209C281E6F95CDD');
 INSERT INTO `sys_user` VALUES ('17', 'yorkmass-teacher', '1004', '136de836553a7916d4a1e3fe80441081', '华北理工大学', '0', '教职工', '5', '2020-03-07 16:00:00', '3', '1', '14', '1', '/images/defaultusertitle.jpg', '0984665CCD684B088CFAFC9D8FB316C7');
 
 -- ----------------------------
