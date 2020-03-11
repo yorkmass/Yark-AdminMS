@@ -1,0 +1,45 @@
+{
+  "groups": [
+    {
+      "name": "shiro",
+      "type": "com.bs.sys.config.ShiroAutoConfiguration",
+      "sourceType": "com.bs.sys.config.ShiroAutoConfiguration"
+    }
+  ],
+  "properties": [
+    {
+      "name": "shiro.anon-urls",
+      "type": "java.lang.String[]",
+      "sourceType": "com.bs.sys.config.ShiroAutoConfiguration"
+    },
+    {
+      "name": "shiro.authc-ulrs",
+      "type": "java.lang.String[]",
+      "sourceType": "com.bs.sys.config.ShiroAutoConfiguration"
+    },
+    {
+      "name": "shiro.hash-algorithm-name",
+      "type": "java.lang.String",
+      "sourceType": "com.bs.sys.config.ShiroAutoConfiguration",
+      "defaultValue": "md5"
+    },
+    {
+      "name": "shiro.hash-iterations",
+      "type": "java.lang.Integer",
+      "sourceType": "com.bs.sys.config.ShiroAutoConfiguration",
+      "defaultValue": 2
+    },
+    {
+      "name": "shiro.log-out-url",
+      "type": "java.lang.String",
+      "sourceType": "com.bs.sys.config.ShiroAutoConfiguration"
+    },
+    {
+      "name": "shiro.login-url",
+      "type": "java.lang.String",
+      "sourceType": "com.bs.sys.config.ShiroAutoConfiguration",
+      "defaultValue": "\/index.html"
+    }
+  ],
+  "hints": []
+}
