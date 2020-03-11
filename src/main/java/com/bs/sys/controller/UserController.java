@@ -337,10 +337,13 @@ public class UserController {
     public ResultObj updateUserInfo(UserVo userVo){
         try {
             //用户头像不是默认图片
-            if (!(userVo.getImgpath()!=null&&userVo.getImgpath().equals(Constast.DEFAULT_IMG_GOODS))){
+            if (!(userVo.getImgpath()!=null&&userVo.getImgpath().equals(Constast.DEFAULT_IMG_USER))){
                 if (userVo.getImgpath().endsWith("_temp")){
                     String newName = AppFileUtils.renameFile(userVo.getImgpath());
                     userVo.setImgpath(newName);
+                    User user = (User) WebUtils.getSession().getAttribute("user");
+                    user.setImgpath(newName);
+                    WebUtils.getSession().setAttribute("user",user);
                     //删除原先的图片
                     String oldPath = userService.getById(userVo.getId()).getImgpath();
                     AppFileUtils.removeFileByPath(oldPath);

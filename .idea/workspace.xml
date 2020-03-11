@@ -1,280 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0487b1bb-e9d6-4c25-8c17-79076d8d03d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/defaultusertitle.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/images/defaultusertitle.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/WarehouseApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/MainApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/bus/cache/BusinessCacheAspect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/bus/controller/BusinessController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/bus/controller/CustomerController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/bus/controller/GoodsController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/bus/controller/InportController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/bus/controller/OutportController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/bus/controller/ProviderController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/bus/controller/SalesController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/bus/controller/SalesbackController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/bus/entity/Customer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/bus/entity/Goods.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/bus/entity/Inport.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/bus/entity/Outport.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/bus/entity/Provider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/bus/entity/Sales.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/bus/entity/Salesback.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/bus/mapper/CustomerMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/bus/mapper/GoodsMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/bus/mapper/InportMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/bus/mapper/OutportMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/bus/mapper/ProviderMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/bus/mapper/SalesMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/bus/mapper/SalesbackMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/bus/mapper/xml/OutportMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/bus/mapper/xml/SalesMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/bus/mapper/xml/SalesbackMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/bus/service/ICustomerService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/bus/service/IGoodsService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/bus/service/IInportService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/bus/service/IOutportService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/bus/service/IProviderService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/bus/service/ISalesService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/bus/service/ISalesbackService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/bus/service/impl/CustomerServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/bus/service/impl/GoodsServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/bus/service/impl/InportServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/bus/service/impl/OutportServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/bus/service/impl/ProviderServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/bus/service/impl/SalesServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/bus/service/impl/SalesbackServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/bus/vo/CustomerVo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/bus/vo/GoodsVo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/bus/vo/InportVo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/bus/vo/OutportVo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/bus/vo/ProviderVo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/bus/vo/SalesVo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/bus/vo/SalesbackVo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/cache/CacheAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/cache/CacheAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/cache/CachePool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/cache/CachePool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/common/ActiverUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/common/ActiverUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/common/AppFileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/common/AppFileUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/common/CacheBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/common/CacheBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/common/Constast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/common/Constast.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/common/DataGridView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/common/DataGridView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/common/PinyinUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/common/PinyinUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/common/ResultObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/common/ResultObj.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/common/SpringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/common/SpringUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/common/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/common/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/common/TreeNodeBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/common/TreeNodeBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/common/WebUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/common/WebUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/config/MybatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/config/MybatisPlusConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/config/ShiroAutoConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/config/ShiroAutoConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/controller/CacheController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/controller/CacheController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/controller/DeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/controller/DeptController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/controller/FileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/controller/FileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/controller/LoginfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/controller/LoginfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/controller/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/controller/MenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/controller/NoticeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/controller/NoticeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/controller/PermissionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/controller/PermissionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/controller/RoleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/controller/SystemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/controller/SystemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/entity/Dept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/entity/Dept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/entity/Loginfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/entity/Loginfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/entity/Notice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/entity/Notice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/entity/Permission.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/entity/Permission.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/entity/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/mapper/DeptMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/mapper/DeptMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/mapper/LoginfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/mapper/LoginfoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/mapper/NoticeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/mapper/NoticeMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/mapper/PermissionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/mapper/PermissionMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/mapper/RoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/mapper/RoleMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/realm/UserRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/realm/UserRealm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/service/IDeptService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/service/IDeptService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/service/ILoginfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/service/ILoginfoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/service/INoticeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/service/INoticeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/service/IPermissionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/service/IPermissionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/service/IRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/service/IRoleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/service/IUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/service/impl/DeptServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/service/impl/DeptServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/service/impl/LoginfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/service/impl/LoginfoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/service/impl/NoticeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/service/impl/NoticeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/service/impl/PermissionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/service/impl/PermissionServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/service/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/service/impl/RoleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/vo/DeptVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/vo/DeptVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/vo/LoginfoVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/vo/LoginfoVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/vo/NoticeVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/vo/NoticeVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/vo/PermissionVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/vo/PermissionVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/vo/RoleVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/vo/RoleVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yeqifu/sys/vo/UserVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bs/sys/vo/UserVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/bus/CustomerMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/bus/GoodsMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/bus/InportMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/bus/ProviderMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/DeptMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/sys/DeptMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/LoginfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/sys/LoginfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/NoticeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/sys/NoticeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/PermissionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/sys/PermissionMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/RoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/sys/RoleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/sys/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/business/customer/customerManager.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/business/goods/goodsManager.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/business/inport/inportManager.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/business/outport/outportManager.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/business/provider/providerManager.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/business/sales/salesManager.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/business/salesback/salesbackManager.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/system/index/deskManager.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/system/index/deskManager.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/system/index/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/system/index/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/system/index/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/system/index/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/system/loginfo/loginfoManager.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/system/loginfo/loginfoManager.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/system/notice/noticeManager.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/system/notice/noticeManager.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/system/user/userManager.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/system/user/userManager.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/yeqifu/WarehouseApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bs/MainApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/yeqifu/generator/CodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bs/generator/CodeGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/WarehouseApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/bus/cache/BusinessCacheAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/bus/controller/BusinessController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/bus/controller/CustomerController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/bus/controller/GoodsController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/bus/controller/InportController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/bus/controller/OutportController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/bus/controller/ProviderController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/bus/controller/SalesController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/bus/controller/SalesbackController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/bus/entity/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/bus/entity/Goods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/bus/entity/Inport.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/bus/entity/Outport.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/bus/entity/Provider.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/bus/entity/Sales.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/bus/entity/Salesback.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/bus/mapper/CustomerMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/bus/mapper/GoodsMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/bus/mapper/InportMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/bus/mapper/OutportMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/bus/mapper/ProviderMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/bus/mapper/SalesMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/bus/mapper/SalesbackMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/bus/service/ICustomerService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/bus/service/IGoodsService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/bus/service/IInportService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/bus/service/IOutportService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/bus/service/IProviderService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/bus/service/ISalesService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/bus/service/ISalesbackService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/bus/service/impl/CustomerServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/bus/service/impl/GoodsServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/bus/service/impl/InportServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/bus/service/impl/OutportServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/bus/service/impl/ProviderServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/bus/service/impl/SalesServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/bus/service/impl/SalesbackServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/bus/vo/CustomerVo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/bus/vo/GoodsVo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/bus/vo/InportVo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/bus/vo/OutportVo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/bus/vo/ProviderVo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/bus/vo/SalesVo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/bus/vo/SalesbackVo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/cache/CacheAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/cache/CachePool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/common/ActiverUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/common/AppFileUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/common/CacheBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/common/Constast.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/common/DataGridView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/common/PinyinUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/common/ResultObj.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/common/SpringUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/common/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/common/TreeNodeBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/common/WebUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/config/MybatisPlusConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/config/ShiroAutoConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/controller/CacheController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/controller/DeptController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/controller/FileController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/controller/LoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/controller/LoginfoController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/controller/MenuController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/controller/NoticeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/controller/PermissionController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/controller/RoleController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/controller/SystemController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/entity/Dept.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/entity/Loginfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/entity/Notice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/entity/Permission.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/entity/Role.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/entity/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/mapper/DeptMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/mapper/LoginfoMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/mapper/NoticeMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/mapper/PermissionMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/mapper/RoleMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/mapper/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/realm/UserRealm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/service/IDeptService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/service/ILoginfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/service/INoticeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/service/IPermissionService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/service/IRoleService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/service/IUserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/service/impl/DeptServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/service/impl/LoginfoServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/service/impl/NoticeServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/service/impl/PermissionServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/service/impl/RoleServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/service/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/vo/DeptVo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/vo/LoginfoVo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/vo/NoticeVo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/vo/PermissionVo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/vo/RoleVo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yeqifu/sys/vo/UserVo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/bus/CustomerMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/bus/GoodsMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/bus/InportMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/bus/ProviderMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/sys/DeptMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/sys/DeptMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/sys/LoginfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/sys/LoginfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/sys/NoticeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/sys/NoticeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/sys/PermissionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/sys/PermissionMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/sys/RoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/sys/RoleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/sys/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/sys/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/business/customer/customerManager.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/business/goods/goodsManager.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/business/inport/inportManager.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/business/outport/outportManager.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/business/provider/providerManager.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/business/sales/salesManager.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/business/salesback/salesbackManager.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/system/index/deskManager.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/system/index/deskManager.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/system/index/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/system/index/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/system/index/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/system/index/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/system/loginfo/loginfoManager.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/system/loginfo/loginfoManager.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/system/notice/noticeManager.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/system/notice/noticeManager.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/system/user/userManager.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/system/user/userManager.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/yeqifu/WarehouseApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/yeqifu/generator/CodeGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/warehouse-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/warehouse.iml" beforeDir="false" afterPath="$PROJECT_DIR$/filems.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/warehouse.sql" beforeDir="false" />
-    </list>
+    <list default="true" id="0487b1bb-e9d6-4c25-8c17-79076d8d03d9" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -319,11 +46,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="findjar.last.used.dir" value="$PROJECT_DIR$/../watchdog/.idea/libraries" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/cms-project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/upload/images" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\IdeaProjects\filems\src\main\resources\upload\images" />
+    </key>
   </component>
   <component name="RunManager" selected="Spring Boot.MainApplication">
     <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -380,6 +112,7 @@
       <workItem from="1583600021337" duration="70406000" />
       <workItem from="1583908177598" duration="233000" />
       <workItem from="1583908473809" duration="84000" />
+      <workItem from="1583910755525" duration="6040000" />
     </task>
     <servers />
   </component>
@@ -399,38 +132,38 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="282" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1583600123601" />
-    <state width="1489" height="280" key="GridCell.Tab.0.bottom" timestamp="1583908556055">
+    <state width="1487" height="280" key="GridCell.Tab.0.bottom" timestamp="1583916636374">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1489" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1583908556055" />
-    <state width="1489" height="280" key="GridCell.Tab.0.center" timestamp="1583908556055">
+    <state width="1487" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1583916636374" />
+    <state width="1487" height="280" key="GridCell.Tab.0.center" timestamp="1583916636373">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1489" height="280" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1583908556055" />
-    <state width="1489" height="280" key="GridCell.Tab.0.left" timestamp="1583908556055">
+    <state width="1487" height="280" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1583916636373" />
+    <state width="1487" height="280" key="GridCell.Tab.0.left" timestamp="1583916636373">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1489" height="280" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1583908556055" />
-    <state width="1489" height="280" key="GridCell.Tab.0.right" timestamp="1583908556055">
+    <state width="1487" height="280" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1583916636373" />
+    <state width="1487" height="280" key="GridCell.Tab.0.right" timestamp="1583916636374">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1489" height="280" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1583908556055" />
-    <state width="1489" height="280" key="GridCell.Tab.1.bottom" timestamp="1583908556056">
+    <state width="1487" height="280" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1583916636374" />
+    <state width="1487" height="280" key="GridCell.Tab.1.bottom" timestamp="1583916636374">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1489" height="280" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1583908556056" />
-    <state width="1489" height="280" key="GridCell.Tab.1.center" timestamp="1583908556056">
+    <state width="1487" height="280" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1583916636374" />
+    <state width="1487" height="280" key="GridCell.Tab.1.center" timestamp="1583916636374">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1489" height="280" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1583908556056" />
-    <state width="1489" height="280" key="GridCell.Tab.1.left" timestamp="1583908556055">
+    <state width="1487" height="280" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1583916636374" />
+    <state width="1487" height="280" key="GridCell.Tab.1.left" timestamp="1583916636374">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1489" height="280" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1583908556055" />
-    <state width="1489" height="280" key="GridCell.Tab.1.right" timestamp="1583908556056">
+    <state width="1487" height="280" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1583916636374" />
+    <state width="1487" height="280" key="GridCell.Tab.1.right" timestamp="1583916636374">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1489" height="280" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1583908556056" />
+    <state width="1487" height="280" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1583916636374" />
     <state width="938" height="352" key="GridCell.Tab.2.bottom" timestamp="1583480493373">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -455,10 +188,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="771" y="202" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1583908267535" />
-    <state x="652" y="352" key="com.intellij.ide.util.TipDialog" timestamp="1583908472800">
+    <state x="652" y="352" key="com.intellij.ide.util.TipDialog" timestamp="1583910756341">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="652" y="352" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1583908472800" />
+    <state x="652" y="352" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1583910756341" />
     <state x="647" y="157" width="626" height="735" key="find.popup" timestamp="1583479351330">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

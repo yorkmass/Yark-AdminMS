@@ -42,7 +42,7 @@ public class FileController {
             dirFile.mkdirs();
         }
         //6.构造文件对象
-        File file=new File(dirFile, newName+"_temp");
+        File file=new File(dirFile.getAbsolutePath(), newName+"_temp");
         //7.把mf里面的图片信息写入file
         try {
             mf.transferTo(file);

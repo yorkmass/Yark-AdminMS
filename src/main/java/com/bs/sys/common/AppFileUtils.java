@@ -21,7 +21,7 @@ public class AppFileUtils {
     /**
      * 文件上传的保存路径  默认值
      */
-    public static String UPLOAD_PATH="G:/upload/";
+    public static String UPLOAD_PATH="src/main/resources/upload/";
 
     static {
         //读取配置文件的存储地址
@@ -62,7 +62,7 @@ public class AppFileUtils {
             //将下载的文件，封装byte[]
             byte[] bytes=null;
             try {
-                bytes = FileUtil.readBytes(file);
+                bytes = FileUtil.readBytes(file.getAbsolutePath());
             } catch (Exception e) {
                 e.printStackTrace();
             }
@@ -97,7 +97,7 @@ public class AppFileUtils {
      */
     public static void removeFileByPath(String oldPath) {
         //图片的路径不是默认图片的路径
-        if (!oldPath.equals(Constast.DEFAULT_IMG_GOODS)){
+        if (!oldPath.equals(Constast.DEFAULT_IMG_USER)){
             File file = new File(UPLOAD_PATH,oldPath);
             if (file.exists()){
                 file.delete();
