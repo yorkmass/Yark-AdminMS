@@ -145,7 +145,7 @@ CREATE TABLE `sys_notice` (
 -- ----------------------------
 -- Records of sys_notice
 -- ----------------------------
-INSERT INTO `sys_notice` VALUES ('36', '我叫栗园扣', '啊 这是我的毕业设计的', '2020-03-10 05:26:19', '超级管理员');
+INSERT INTO `sys_notice` VALUES ('36', '我叫yorkmass', '啊 这是我的毕业设计的', '2020-03-10 05:26:19', '超级管理员');
 
 -- ----------------------------
 -- Table structure for sys_permission
