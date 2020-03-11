@@ -15,5 +15,7 @@
 8.数据库管理--使用druid  
 9.发布公告  
 *环境*  
-1.数据库mysql 5.6 
+1.数据库mysql 5.6  
+*数据库设计--供二次开发使用*  
+![Image](https://github.com/yorkmass/yorkmassAdminMs/blob/master/%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AE%BE%E8%AE%A1.png)
 
