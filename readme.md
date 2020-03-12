@@ -28,7 +28,9 @@
 **示例和使用**
 1. 所有用户初始密码123456    
 2. 系统管理员admin 密码123456  
-3. 演示地址&nbsp;&nbsp;&nbsp;[点击预览](http://moyu.imoonfish.com:8887)  
+3. 演示地址&nbsp;&nbsp;&nbsp;[点击预览](http://moyu.imoonfish.com:8887)   
+  
+  
 **数据库设计--供二次开发使用**  
 ![Image](https://github.com/yorkmass/yorkmassAdminMs/blob/master/%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AE%BE%E8%AE%A1.png)  
 
