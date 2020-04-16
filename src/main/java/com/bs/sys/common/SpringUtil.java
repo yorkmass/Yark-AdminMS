@@ -6,7 +6,6 @@ import org.springframework.context.ApplicationContextAware;
 import org.springframework.stereotype.Component;
 
 /**
- * @Author: LYK
  */
 @Component
 public class SpringUtil implements ApplicationContextAware {

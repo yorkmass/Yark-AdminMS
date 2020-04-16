@@ -51,7 +51,7 @@ layui.use(['form','jquery',"layer"],function() {
                                 '<input type="password" class="admin-header-lock-input layui-input" autocomplete="off" placeholder="请输入密码解锁.." name="lockPwd" id="lockPwd" />'+
                                 '<button class="layui-btn" id="unlock">解锁</button>'+
                             '</div>'+
-                            '<p>请输入“123456”，否则不会解锁成功哦！！！</p>'+
+                            '<p>密码是123456</p>'+
                         '</div>',
             closeBtn : 0,
             shade : 0.9,

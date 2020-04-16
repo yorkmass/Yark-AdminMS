@@ -7,16 +7,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="filems" />
+        <module name="yaoyi" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="filems" target="1.8" />
+      <module name="yaoyi" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="filems" options="-parameters" />
+      <module name="yaoyi" options="-parameters" />
     </option>
   </component>
 </project>

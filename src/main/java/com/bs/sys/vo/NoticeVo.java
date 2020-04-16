@@ -8,8 +8,6 @@ import org.springframework.format.annotation.DateTimeFormat;
 import java.util.Date;
 
 /**
- * @Author: 落亦-
- * @Date: 2019/11/25 8:51
  */
 @Data
 @EqualsAndHashCode(callSuper = false)

@@ -18,8 +18,6 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.*;
 
 /**
- * @Author: 落亦-
- * @Date: 2019/11/22 15:35
  */
 @RestController
 @RequestMapping("/menu")

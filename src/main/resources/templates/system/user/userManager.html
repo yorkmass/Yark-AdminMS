@@ -38,6 +38,13 @@
             height: 30px;
             margin-top: 4px;
         }
+        .uploadcss{
+            text-align: center;
+            margin-top: 15px;
+        }
+        .centerupload{
+            margin: 0 auto;
+        }
     </style>
 </head>
 <body>
@@ -89,6 +96,12 @@
         <button type="button" lay-event="add" shiro:hasPermission="user:create" class="layui-btn layui-btn-sm layui-btn-normal layui-btn-radius">
             <i class="layui-icon layui-icon-add-1"></i>添加用户
         </button>
+        <button type="button" lay-event="addBatch"  class="layui-btn layui-btn-sm layui-btn-radius">
+            <i class="layui-icon layui-icon-upload-drag"></i>导入Excel
+        </button>
+        <button type="button" lay-event="excelDown"  class="layui-btn layui-btn-sm  layui-btn-warm layui-btn-radius">
+            <a th:href="@{/resources/excel/exportusers.xls}"><i class="layui-icon layui-icon-download-circle"></i>模板下载</a>
+        </button>
     </div>
     <div id="userRowBar" style="display: none;">
         <button type="button" lay-event="update" shiro:hasPermission="user:update" class="layui-btn layui-btn-xs layui-btn-radius"><i
@@ -104,6 +117,31 @@
                 class="layui-icon layui-icon-delete"></i>分配角色
         </button>
     </div>
+</div>
+
+<!--添加Excel导入用户-->
+<div id="batchUserExcel"  style="display: none;padding: 10px;padding-right: 5%">
+    <form class="layui-form layui-row" method="post">
+
+        <input type="hidden" name="excelpath" id="excelpath">
+        <div class="centerupload">
+        <div class="layui-form-item">
+            <div class="uploadcss">
+                <button type="button" class="layui-btn" id="excelsave">
+                    <i class="layui-icon">&#xe67c;</i><label id="uptext">上传Excel</label>
+                </button>
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+                    <div class="uploadcss">
+                        <button class="layui-btn" lay-submit="" lay-filter="exportexcel" id="exportnow">立即导入</button>
+                        <!--<button type="reset" class="layui-btn layui-btn-primary">重置</button>-->
+                    </div>
+        </div>
+        </div>
+
+    </form>
 </div>
 
 <!--添加和修改弹出层-->
@@ -226,13 +264,14 @@
 
     layui.extend({
         dtree: '/resources/layui_ext/dtree/dtree'
-    }).use(['jquery', 'form', 'layer', 'laydate', 'table', 'layedit', 'dtree','laydate'], function () {
+    }).use(['jquery', 'form', 'layer', 'laydate', 'table', 'layedit', 'dtree','laydate','upload'], function () {
         var $ = layui.jquery;
         var form = layui.form;
         var layer = layui.layer;
         var table = layui.table;
         var dtree = layui.dtree;
         var laydate = layui.laydate;
+        var upload = layui.upload;
 
         //初始化时间选择器
         laydate.render({
@@ -261,7 +300,7 @@
                         return '<img width=40 height=40 src=/file/showImageByPath?path='+d.imgpath+ ' />';
                 }},
                 {
-                    field: 'sex', title: '是否可用', align: 'center', width: '100', templet: function (d) {
+                    field: 'sex', title: '用户性别', align: 'center', width: '100', templet: function (d) {
                     return d.sex == 1 ? '<font color="blue">男</font>' : '<font color="red">女</font>';
                 }
                 },
@@ -302,8 +341,38 @@
                 case 'add':
                     openAddLayer();
                     break;
+                case 'addBatch':
+                    addBatchLayer();
+                    break;
+            };
+        });
+
+        //提交转换excel
+        form.on("submit(exportexcel)",function(data){
+            var excelpath=$("#excelpath");
+            if(excelpath.val()==''){
+                layer.msg("请上传Excel表格");
             }
-            ;
+            else {
+                var index = layer.msg('数据转换中，请稍候',{icon: 16,time:false,shade:0.8});
+                $.post("/user/batchusers", data.field, function (res) {
+                    layer.msg(res.msg);
+                });
+                var excelsave=$("#excelsave");
+                excelsave.removeClass("layui-btn-disabled");
+                $("#uptext").html("上传Excel");
+                layer.close(index);
+                layer.close(mainIndex);
+                setTimeout(function(){
+                    tableIns.reload('userTable',{
+                        page: {
+                            curr: 1
+                        }
+                    });
+                },500);
+            }
+
+            return false; //阻止表单跳转。如果需要表单跳转，去掉这段即可。
         });
 
         //监控行工具条事件
@@ -329,6 +398,41 @@
 
         var mainIndex;
         var url;
+
+        //打开导入文件弹出层
+        function addBatchLayer() {
+                mainIndex=layer.open({
+                    type: 1,
+                    content: $("#batchUserExcel"),
+                    area: ['300px', '200px'],
+                    title: 'Excel批量导入用户',
+                    success:function () {
+                        var excelpath=$("#excelpath");
+                        excelpath.val("");
+                    }
+                });
+        }
+
+        //上传文档接口
+        var uploadInst = upload.render({
+            elem: '#excelsave' //绑定元素
+            ,url: '/user/excelupload' //上传接口
+            ,accept:'file'//允许的文件类型
+            ,field:'mf'
+            ,done: function(res){
+                var path=res.path;
+                var excelpath=$("#excelpath");
+                var excelsave=$("#excelsave");
+                excelsave.addClass("layui-btn-disabled");
+                $("#uptext").html("已接收");
+                excelpath.val(path);
+                console.log(excelpath.val());
+                layer.msg("文件已经接收成功！请点击：\"立即导入\"快速生成用户数据");
+            }
+            ,error: function(){
+                layer.msg("上传出错！")
+            }
+        });
 
         //打开添加弹出层
         function openAddLayer() {

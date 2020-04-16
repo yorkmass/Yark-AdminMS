@@ -587,7 +587,7 @@ h2.method {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-    box-shadow: 0 0 50px #009688;
+    box-shadow: 0 0 50px #babdb1;
 }
 
 .login_face {
@@ -599,7 +599,7 @@ h2.method {
     border-radius: 50%;
     border: 5px solid #fff;
     overflow: hidden;
-    box-shadow: 0 0 30px #009688;
+    box-shadow: 0 0 30px #babdb1;
 }
 
 .login_face img {

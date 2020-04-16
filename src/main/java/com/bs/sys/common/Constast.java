@@ -1,9 +1,6 @@
 package com.bs.sys.common;
 
-/**
- * @Author: 落亦-
- * @Date: 2019/11/21 21:39
- */
+
 public class Constast {
 
     /**

@@ -5,8 +5,6 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 
 /**
- * @Author: 落亦-
- * @Date: 2019/12/2 8:21
  */
 @Data
 @EqualsAndHashCode(callSuper = false)

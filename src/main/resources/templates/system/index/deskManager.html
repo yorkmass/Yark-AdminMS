@@ -18,7 +18,7 @@
 	</blockquote>
 	<div class="layui-row layui-col-space10">
 		<div class="layui-col-lg6 layui-col-md12">
-			<blockquote class="layui-elem-quote title">最新文章 <i class="layui-icon layui-red">&#xe756;</i></blockquote>
+			<blockquote class="layui-elem-quote title">最新通知 <i class="layui-icon layui-red">&#xe756;</i></blockquote>
 			<table class="layui-table mag0" lay-skin="line">
 				<colgroup>
 					<col>
@@ -69,7 +69,7 @@
 	    var second = dateObj.getSeconds(); //当前系统时间的秒钟值
 	    var timeValue = "" +((hour >= 12) ? (hour >= 18) ? " 晚上" : " 下午" : " 上午" ); //当前时间属于上午、晚上还是下午
 	    newDate = dateFilter(year)+"年"+dateFilter(month)+"月"+dateFilter(date)+"日 "+" "+dateFilter(hour)+":"+dateFilter(minute)+":"+dateFilter(second);
-	    document.getElementById("nowTime").innerHTML = "亲爱的，"+currentUserName+"  "+timeValue+"好！ 欢迎使用 项目文档管理系统。当前时间为： "+newDate+"　"+week;
+	    document.getElementById("nowTime").innerHTML = "亲爱的，"+currentUserName+"  "+timeValue+"好！ 欢迎使用高校返校疫情排查系统。当前时间为： "+newDate+"　"+week;
 	    setTimeout("getLangDate()",1000);
 	}
 

@@ -1,10 +1,12 @@
 package com.bs.sys.controller;
 
 
+import cn.hutool.core.date.DateUtil;
 import cn.hutool.core.util.IdUtil;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.bs.sys.common.excel.FileUtil;
 import com.bs.sys.common.*;
 import com.bs.sys.entity.Dept;
 import com.bs.sys.entity.Role;
@@ -13,13 +15,18 @@ import com.bs.sys.service.IDeptService;
 import com.bs.sys.service.IRoleService;
 import com.bs.sys.service.IUserService;
 import com.bs.sys.vo.UserVo;
+import com.bs.sys.vo.UsersExcelVo;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.shiro.crypto.hash.Md5Hash;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.multipart.MultipartFile;
 
+import java.io.File;
+import java.io.IOException;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -29,8 +36,6 @@ import java.util.Map;
  * InnoDB free: 9216 kB; (`deptid`) REFER `warehouse/sys_dept`(`id`) ON UPDATE CASC 前端控制器
  * </p>
  *
- * @author luoyi-
- * @since 2019-11-21
  */
 @RestController
 @RequestMapping("user")
@@ -149,6 +154,102 @@ public class UserController {
             //设置用户默认头像
             userVo.setImgpath(Constast.DEFAULT_IMG_USER);
             userService.save(userVo);
+            return ResultObj.ADD_SUCCESS;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return ResultObj.ADD_ERROR;
+        }
+    }
+
+    /**
+     * 接收批量导入用户的excel表，返回存储路径
+     */
+    @RequestMapping("excelupload")
+    public Map<String,Object> excelUpload(MultipartFile mf){
+        //1.得到文件名
+        String oldName = mf.getOriginalFilename();
+        //2.根据旧的文件名生成新的文件名
+        String newName=AppFileUtils.createNewFileName(oldName);
+        //3.得到当前日期的字符串
+        String dirName= DateUtil.format(new Date(), "yyyy-MM-dd");
+        //4.构造文件夹
+        File dirFile=new File(AppFileUtils.UPLOAD_PATH,dirName);
+        //5.判断当前文件夹是否存在
+        if(!dirFile.exists()) {
+            //如果不存在则创建新文件夹
+            dirFile.mkdirs();
+        }
+        //6.构造文件对象
+        File file=new File(dirFile.getAbsolutePath(), newName);
+        //7.把mf里面的图片信息写入file
+        try {
+            mf.transferTo(file);
+        } catch (IllegalStateException | IOException e) {
+            e.printStackTrace();
+        }
+        Map<String,Object> map=new HashMap<String, Object>();
+        map.put("path",dirName+"/"+newName);
+        return map;
+    }
+    /**
+     * 把excel转换到数据库
+     */
+    @RequestMapping("batchusers")
+    public ResultObj batchUsers(String excelpath){
+        try {
+
+            List<UsersExcelVo> list=UsersExcelParse.ExceltoUserExcelVo(new File(AppFileUtils.UPLOAD_PATH+"/"+excelpath));
+            User user=null;
+            for(UsersExcelVo usersExcelVo:list){
+                user = new User();
+                //根据部门名查询部门信息
+                QueryWrapper<Dept> queryWrapperD=new QueryWrapper<>();
+                queryWrapperD.eq(usersExcelVo.getDeptname()!=null,"name",usersExcelVo.getDeptname());
+                queryWrapperD.eq("available",Constast.AVAILABLE_TRUE);;
+                Dept dept = deptService.getOne(queryWrapperD);
+                //根据领导姓名查询领导Id
+                QueryWrapper<User> queryWrapperU = new QueryWrapper<>();
+                queryWrapperU.eq(usersExcelVo.getName()!=null,"name",usersExcelVo.getMgrname());
+                queryWrapperU.eq("available",Constast.AVAILABLE_TRUE);
+                List<User> userList=userService.list(queryWrapperU);
+                //根据角色名获取角色Id
+                QueryWrapper<Role> queryWrapperR=new QueryWrapper<>();
+                queryWrapperR.eq(usersExcelVo.getRolename()!=null,"name",usersExcelVo.getRolename());
+                queryWrapperR.eq("available",Constast.AVAILABLE_TRUE);
+                Role role=roleService.getOne(queryWrapperR);
+                //设置用户信息
+                System.out.println("-----------------------------"+usersExcelVo.toString()+"----------"+userList.size());
+                user.setMgr(userList.get(0).getId());
+                user.setDeptid(dept.getId());
+                user.setName(usersExcelVo.getName());
+                user.setLoginname(usersExcelVo.getLoginname());
+                user.setRemark(usersExcelVo.getRemark());
+                user.setAddress(usersExcelVo.getAddress());
+                user.setType(Constast.USER_TYPE_NORMAL);
+                user.setAvailable(1);
+                //设置盐
+                String salt = IdUtil.simpleUUID().toUpperCase();
+                user.setSalt(salt);
+                //设置默认密码
+                user.setPwd(new Md5Hash(Constast.USER_DEFAULT_PWD,salt,2).toString());
+                //设置用户默认头像
+                user.setImgpath(Constast.DEFAULT_IMG_USER);
+                //存入数据库
+                QueryWrapper<User> queryWrapperE = new QueryWrapper<>();
+                queryWrapperE.eq(usersExcelVo.getLoginname()!=null,"loginname",usersExcelVo.getLoginname());
+                queryWrapperE.eq("available",Constast.AVAILABLE_TRUE);
+                User userExist=userService.getOne(queryWrapperE);
+                Integer[] ids=new Integer[1];
+                ids[0]=role.getId();
+                if(userExist!=null){
+                    user.setId(userExist.getId());
+                    userService.updateById(user);
+                }
+                else {
+                    userService.save(user);
+                }
+                userService.saveUserRole(user.getId(),ids);
+            }
             return ResultObj.ADD_SUCCESS;
         } catch (Exception e) {
             e.printStackTrace();

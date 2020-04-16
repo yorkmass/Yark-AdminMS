@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.bs</groupId>
-	<artifactId>filems</artifactId>
+	<artifactId>yaoyi</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>filems</name>
-	<description>项目文档管理系统</description>
+	<name>yaoyi</name>
+	<description>高校返校疫情排查系统</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -104,6 +104,24 @@
 			<groupId>com.ibeetl</groupId>
 			<artifactId>beetl</artifactId>
 			<version>3.0.13.RELEASE</version>
+		</dependency>
+
+
+		<!-- poi处理excel -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>3.9</version>
+		</dependency>
+
+
+
+		<!-- 使用 JSONObject net.sf.json.JSON -->
+		<dependency>
+			<groupId>net.sf.json-lib</groupId>
+			<artifactId>json-lib</artifactId>
+			<version>2.4</version>
+			<classifier>jdk15</classifier>
 		</dependency>
 
 		<!--druid-->
