@@ -30,6 +30,7 @@
 2. 系统管理员admin 密码123456  
 3. 演示地址&nbsp;&nbsp;&nbsp;[点击预览](http://moyu.imoonfish.com:8887)   
 4. B站视频讲解&nbsp;&nbsp;&nbsp;[教学视频](https://www.bilibili.com/video/BV1N741197sA/)
+5. 实现案例：[华北理工大学推免管理系统](https://github.com/yorkmass/NCST-free-postgraduate-management-system.git)
   
   
 **数据库设计--供二次开发使用（雷哥改）**  
