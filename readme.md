@@ -34,8 +34,8 @@
 5. 实现案例：[华北理工大学推免管理系统](https://github.com/yorkmass/NCST-free-postgraduate-management-system.git)
 
 **数据库设计--供二次开发使用（雷哥改）**  
-![Image](数据库设计.png)  
+![Image](mysql.png)  
 
 #### 支持一下，捐赠作者
 
-![](pay.jpg)
+![Image](pay.jpg)
