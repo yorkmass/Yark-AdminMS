@@ -38,4 +38,4 @@
 
 #### 支持一下，捐赠作者
 
-<img src="pay.jpg" alt="pay" style="zoom:33%;" />
+![](pay.jpg)
